@@ -39,7 +39,7 @@ Module.expectedDataFileDownloads++;
 			throw 'using preloaded data can only be done on a web page or in a web worker';
 		}
 		var PACKAGE_NAME = 'DOOM.WAD';
-		var REMOTE_PACKAGE_BASE = '//' + (window.location.hostname !== 'localhost' ? window.location.hostname : 'emupedia.net') + '/emupedia-data-doom/doom1.wad';
+		var REMOTE_PACKAGE_BASE = '//' + (window.location.hostname !== 'localhost' ? window.location.hostname : 'unblockeddatabase.github.io') + '/doom/doom1.wad';
 		console.log(REMOTE_PACKAGE_BASE);
 		if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
 			Module['locateFile'] = Module['locateFilePackage'];
