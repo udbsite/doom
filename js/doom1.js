@@ -2,6 +2,10 @@
 // Emscripten is available under two separate licenses, the MIT license and the
 // University of Illinois/NCSA Open Source License.  Both these licenses can be
 // found in the LICENSE file.
+// uDB made by vincells. say hi to me if you see this lol
+
+// note that youll have to find the link to the wad in this file
+// and change it to your own site if you plan on hosting this
 
 // The Module object: Our interface to the outside world. We import
 // and export values on it. There are various ways Module can be used:
